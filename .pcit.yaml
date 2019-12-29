@@ -1,5 +1,5 @@
 steps:
-  github_release:
+  gitee_release:
     image: pcit/gitee_release
     settings:
       token: ${GITEE_TOKEN}

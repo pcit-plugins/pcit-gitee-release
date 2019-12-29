@@ -1,4 +1,4 @@
-# PCIT Gitee Releases plugin
+# PCIT plugin -- Gitee Release
 
 ```yaml
 pipeline:
@@ -8,7 +8,7 @@ pipeline:
       status: success
       event: tag
     settings:
-      token: ${GITHUB_TOKEN}
+      token: ${GITEE_TOKEN}
       # repo: pcit-ce/pcit
       files:
       - file_name
